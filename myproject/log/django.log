@@ -6,3 +6,36 @@ Not Found: /
 "GET /game/kub/ HTTP/1.1" 200 1
 "GET /game/kub/ HTTP/1.1" 200 1
 "GET /game/kub/ HTTP/1.1" 200 1
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2218
+"GET /game/kub/ HTTP/1.1" 200 1
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+Not Found: /games/base
+"GET /games/base HTTP/1.1" 404 2215
+"GET /game/base HTTP/1.1" 301 0
+Internal Server Error: /game/base/
+Traceback (most recent call last):
+  File "C:\Users\Настя\PycharmProjects\DjangoProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Настя\PycharmProjects\DjangoProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py", line 51, in base
+    logger.info(f'посещение страницы index в: {datetime.now()}')
+                                               ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+"GET /game/base/ HTTP/1.1" 500 65837
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game/base/ HTTP/1.1" 200 856
+"GET /game/about/ HTTP/1.1" 200 992

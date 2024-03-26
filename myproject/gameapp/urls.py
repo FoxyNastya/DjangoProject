@@ -16,11 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from .views import index, kub, numbers, orel_reshka
+from .views import index, kub, numbers, orel_reshka, base, about
 
 urlpatterns = [
     path('', index, name='index'),
     path('kub/', kub, name='kub'),
     path('orel_reshka/', orel_reshka, name='orel_reshka'),
-    path('numbers/', numbers, name='numbers')
+    path('numbers/', numbers, name='numbers'),
+    path('base/', base, name='base'),
+    path('about/', about, name='about'),
 ]
