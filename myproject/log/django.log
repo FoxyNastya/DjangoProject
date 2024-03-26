@@ -1,0 +1,8 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+"GET /game/kub/ HTTP/1.1" 200 1
+"GET /game/kub/ HTTP/1.1" 200 1
+"GET /game/kub/ HTTP/1.1" 200 1
+"GET /game/kub/ HTTP/1.1" 200 1
+"GET /game/kub/ HTTP/1.1" 200 1
