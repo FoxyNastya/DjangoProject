@@ -1,8 +1,6 @@
-import datetime
 from random import choice, random, randint
-from venv import logger
+from .models import Coin
 
-from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
@@ -12,8 +10,11 @@ def index(request):
     return HttpResponse('Hello world!!!')
 
 
-def orel_reshka(request):
-    return HttpResponse(choice(['Орел', 'Решка']))
+def coin(request):
+    side = choice(['Орел', 'Решка'])
+    arg = Coin(side=side)
+    arg.save()
+    return HttpResponse(str(side))
 
 
 def kub(request):
@@ -22,6 +23,15 @@ def kub(request):
 
 def numbers(request):
     return HttpResponse(str(randint(0, 1000)))
+
+
+# def coin_values(request):
+#     value = Coin.values()
+#     lst = []
+#     for i in value:
+#         print(i)
+#         lst.append(i.side)
+#     return HttpResponse(lst)
 
 
 def base(request):
