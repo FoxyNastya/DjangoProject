@@ -240,3 +240,104 @@ Not Found: /
 "GET /shop/ HTTP/1.1" 200 14
 C:\Users\Настя\PycharmProjects\DjangoProject\myproject\shopapp\models.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2377
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2428
+Not Found: /
+"GET / HTTP/1.1" 404 2377
+"GET /game HTTP/1.1" 301 0
+"GET /game/ HTTP/1.1" 200 14
+Not Found: /game/index
+"GET /game/index HTTP/1.1" 404 3342
+Not Found: /index
+"GET /index HTTP/1.1" 404 2410
+Not Found: /base
+"GET /base HTTP/1.1" 404 2407
+"GET /game/base HTTP/1.1" 301 0
+"GET /game/base/ HTTP/1.1" 200 684
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game/about/ HTTP/1.1" 200 779
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game/about/ HTTP/1.1" 200 779
+"GET /game/base/ HTTP/1.1" 200 684
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 669
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 669
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2633
+Not Found: /index
+"GET /index HTTP/1.1" 404 2615
+Not Found: /game/index
+"GET /game/index HTTP/1.1" 404 3547
+Not Found: /base
+"GET /base HTTP/1.1" 404 2612
+"GET / HTTP/1.1" 200 669
+"GET /about HTTP/1.1" 200 779
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 669
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 716
+"GET /index HTTP/1.1" 200 851
+Not Found: /indextwo
+"GET /indextwo HTTP/1.1" 404 2624
+Not Found: /indextwo
+"GET /indextwo HTTP/1.1" 404 2624
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /indextwo
+"GET /indextwo HTTP/1.1" 404 2624
+"GET /index HTTP/1.1" 200 851
+"GET / HTTP/1.1" 200 735
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\shopapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Настя\PycharmProjects\DjangoProject\myproject\shopapp\models.py changed, reloading.
+Watching for file changes with StatReloader

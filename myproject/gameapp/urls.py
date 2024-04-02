@@ -16,14 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from .views import index, kub, numbers, coin, base, about #coin_values
+from .views import index, kub, numbers, coin
+
 
 urlpatterns = [
     path('', index, name='index'),
     path('kub/', kub, name='kub'),
     path('coin/', coin, name='coin'),
     path('numbers/', numbers, name='numbers'),
-    path('base/', base, name='base'),
-    path('about/', about, name='about'),
+    #path('base/', base, name='base'),
+    #path('about/', about, name='about'),
     #path('coin_values', coin_values, name=coin_values),
 ]
