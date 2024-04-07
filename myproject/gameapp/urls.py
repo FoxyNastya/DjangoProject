@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from .views import index, kub, numbers, coin
+from .views import index, kub, numbers, coin, game_choice
 
 
 urlpatterns = [
@@ -24,6 +24,7 @@ urlpatterns = [
     path('kub/', kub, name='kub'),
     path('coin/', coin, name='coin'),
     path('numbers/', numbers, name='numbers'),
+    path('gamechoice/', game_choice, name='game_choice'),
     #path('base/', base, name='base'),
     #path('about/', about, name='about'),
     #path('coin_values', coin_values, name=coin_values),

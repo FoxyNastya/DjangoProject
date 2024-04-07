@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from gameapp.views import index, indextwo
+from shopapp.views import upload_image
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,8 +24,9 @@ urlpatterns = [
     path('blog/', include('blogapp.urls')),
     path('shop/', include('shopapp.urls')),
     #path('', base),
-    path('', index),
-    path('index', indextwo),
+    #path('', index),
+    #path('index', indextwo),
+    path('upload/', upload_image, name='upload_image')
 
 
 ]
