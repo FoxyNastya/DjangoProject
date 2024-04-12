@@ -26,7 +26,8 @@ urlpatterns = [
     #path('', base),
     #path('', index),
     #path('index', indextwo),
-    path('upload/', upload_image, name='upload_image')
+    path('upload/', upload_image, name='upload_image'),
+    path('__debug__/', include('debug_toolbar.urls')),
 
 
 ]

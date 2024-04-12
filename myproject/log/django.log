@@ -1183,3 +1183,45 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 django.db.utils.OperationalError: no such column: shopapp_client.name
 "GET /admin/shopapp/client/ HTTP/1.1" 500 172594
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 11600
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 11661
+Not Found: /authors
+"GET /authors HTTP/1.1" 404 11645
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /blog/postauthors HTTP/1.1" 200 10108
+"GET /blog/authors HTTP/1.1" 200 7
+"GET /__debug__/render_panel/?store_id=f2721db200da4748a37ffc9f9e594773&panel_id=SQLPanel HTTP/1.1" 200 115
+"GET /__debug__/render_panel/?store_id=f2721db200da4748a37ffc9f9e594773&panel_id=HistoryPanel HTTP/1.1" 200 8500
+"GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+"GET /__debug__/render_panel/?store_id=f2721db200da4748a37ffc9f9e594773&panel_id=VersionsPanel HTTP/1.1" 200 621
+"GET /__debug__/render_panel/?store_id=f2721db200da4748a37ffc9f9e594773&panel_id=SettingsPanel HTTP/1.1" 200 26027
+"GET /__debug__/render_panel/?store_id=f2721db200da4748a37ffc9f9e594773&panel_id=HeadersPanel HTTP/1.1" 200 4315
+Not Found: /
+"GET / HTTP/1.1" 404 11599
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /game/coin/ HTTP/1.1" 200 9195
+"GET /game/coin/ HTTP/1.1" 200 9193
+"GET /game/coin/ HTTP/1.1" 200 9193
+"GET /game/coin/ HTTP/1.1" 200 9193
+"GET /game/coin/ HTTP/1.1" 200 9193
+"GET /game/coin/ HTTP/1.1" 200 9193
+"GET /game/coin/ HTTP/1.1" 200 9195
+"GET /game/coin/ HTTP/1.1" 200 9193
+"GET /__debug__/render_panel/?store_id=ce3c1fcedb204592b7b7c65024db8e18&panel_id=HistoryPanel HTTP/1.1" 200 22431
+"GET /__debug__/render_panel/?store_id=ce3c1fcedb204592b7b7c65024db8e18&panel_id=VersionsPanel HTTP/1.1" 200 621
+"GET /__debug__/render_panel/?store_id=ce3c1fcedb204592b7b7c65024db8e18&panel_id=RequestPanel HTTP/1.1" 200 1828
+"GET /__debug__/render_panel/?store_id=ce3c1fcedb204592b7b7c65024db8e18&panel_id=TemplatesPanel HTTP/1.1" 200 4326
+"GET /__debug__/render_panel/?store_id=ce3c1fcedb204592b7b7c65024db8e18&panel_id=SignalsPanel HTTP/1.1" 200 2152
